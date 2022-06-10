@@ -1,0 +1,19 @@
+.airbnb--hero {
+    display: flex;
+    flex-flow: column;
+}
+
+.airbnb--hero img {
+    margin: 50px auto;
+    width: 70%;
+}
+
+.airbnb--hero-title {
+    margin-bottom: 16px;
+}
+
+.airbnb--hero--paragraph {
+    margin-right: 35%;
+    margin-bottom: 16px;
+    color: #222222;
+}

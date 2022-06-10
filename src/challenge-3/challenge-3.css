@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    /*border-bottom: 1px solid forestgreen;*/
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+}
+.nav-items {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+.nav-items li {
+    margin: 5px;
+    padding-right: 10px;
+}

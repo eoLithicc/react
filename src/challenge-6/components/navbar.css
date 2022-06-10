@@ -1,0 +1,9 @@
+.airbnb--navbar {
+    box-shadow: 0px 2px 10px #a9a9a9;
+    padding: 25px 50px;
+}
+
+.airbnb--navbar > img {
+    max-width: 200px;
+    height: 40px;
+}
