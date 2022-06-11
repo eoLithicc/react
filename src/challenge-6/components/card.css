@@ -1,13 +1,33 @@
 .airbnb--card {
-    width: 250px;
-    padding: 0 10px 10px 10px;
+    flex: 0 0 auto;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    width: 225px;
+    font-size: 16px;
+}
+
+.airbnb--card--badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    min-width: 80px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 5px 7px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.airbnb--card-image {
+    width: 100%;
 }
 
 .airbnb--card--rating,
 .airbnb--card--title,
 .airbnb--card--pricing {
     display: block;
-    font-size: 16px;
+    margin-top: auto;
 }
 .airbnb--card--rating {
     display: flex;

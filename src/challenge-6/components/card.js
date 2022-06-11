@@ -1,21 +1,32 @@
 import './card.css';
-import card1 from '../../media/card1.png';
 import starIcon from '../../media/star-icon.png';
 
-export default function Card() {
+export default function Card({ img, stats, country, title, price, openSpots, location }) {
+	let badgeText = '';
+	if (location === 'Online') {
+		badgeText = 'ONLINE';
+	}
+	if (openSpots === 0) {
+		badgeText = 'SOLD OUT';
+	}
+
 	return (
 		<div className='airbnb--card'>
-			<img
-				src={card1}
+			{
+				badgeText &&
+				<div className="airbnb--card--badge">{badgeText}</div>
+			}
+			<img className='airbnb--card-image'
+				src={ img }
 				alt="some image name"
 			/>
 			<span className='airbnb--card--rating  gray'>
 				<img
 					src={starIcon}
 					alt=""
-				/>5.0 (6) - USA</span>
-			<span className='airbnb--card--title gray'>Life lessons with Katie Zaferes</span>
-			<span className='airbnb--card--pricing gray'><strong>From $136</strong> / person</span>
+				/>{ stats.rating } { stats.reviewCount } - { country }</span>
+			<span className='airbnb--card--title gray'>{ title }</span>
+			<span className='airbnb--card--pricing gray'><strong>From ${ price }</strong> / person</span>
 		</div>
 	)
 }
