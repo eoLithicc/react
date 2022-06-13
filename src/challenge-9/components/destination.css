@@ -1,0 +1,45 @@
+.destination-card {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    color: #2B283A;
+}
+
+.destination-card--image {
+    object-fit: cover;
+    border-radius: 7px;
+    width: 150px;
+    height: 225px;
+}
+
+.destination-card--info--coordinates {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.destination-card--info--coordinates .pin-icon {
+    margin-right: 5px;
+    height: 14px;
+}
+
+.destination-card--info--coordinates .country {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.destination-card--info--coordinates .googleMapsPin {
+    text-decoration: underline;
+    color: #918E9B;
+}
+
+.destination-card--info--title {
+    margin-top: 0;
+}
+
+.destination-card--info--travel-period {
+    font-weight: 600;
+}

@@ -1,7 +1,12 @@
 import './app.css';
+import Header from "./components/header";
+import Main from "./components/main";
 
 export default function App() {
 	return (
-		<h1>Travel journal</h1>
+		<div>
+			<Header />
+			<Main />
+		</div>
 	)
 }
