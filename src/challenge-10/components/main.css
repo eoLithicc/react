@@ -1,0 +1,30 @@
+main {
+    padding: 35px 50px;
+    font-size: 30px;
+}
+
+.meme-texts {
+    display: flex;
+    flex-flow: row;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 18px;
+    color: #0d0d0d
+}
+
+button {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 18px;
+    font-weight: 600;
+    color: #FFF;
+    background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+}

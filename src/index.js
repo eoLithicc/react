@@ -10,7 +10,8 @@ import reportWebVitals from './reportWebVitals';
 // import App from './challenge-6/app';
 // import App from './challenge-7/app';
 // import App from './challenge-8/app';
-import App from './challenge-9/app';
+// import App from './challenge-9/app';
+import App from './challenge-10/app';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
